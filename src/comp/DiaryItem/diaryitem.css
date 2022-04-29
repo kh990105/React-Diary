@@ -1,0 +1,38 @@
+.DiaryItem{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: space-between;
+}
+.emotion_img_wrapper{
+    cursor: pointer;
+    min-width: 120px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.emotion_img_wrapper01{
+    background-color: #64c964;
+}
+.text-info{
+    flex-grow: 1;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn-box{
+    min-width: 70px;
+}
+.todate{
+    margin-bottom: 25px;
+}
+.mybtn{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: 'Gamja Flower', cursive;
+}

@@ -1,0 +1,35 @@
+.menu-wrap{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{ 
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20px;
+}
+.left-col{
+    display: flex;
+    flex: 3;
+    width: 30%;
+}
+.right-col{
+    display: flex;
+    flex: 7;
+    width: 70%;
+}
+.right-col>a{
+    width: 100%;
+}
+.newdairy{
+    width: 100%;
+    background-color: #64c964;
+    color: #fff;
+    border: none;
+}

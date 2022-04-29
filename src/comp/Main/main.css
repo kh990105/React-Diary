@@ -1,0 +1,70 @@
+.emothion_list_wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 2%;
+    gap: 2%;
+}
+.emothion_box{
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+}
+.emothion_box img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.Text_area textarea{
+    font-family: 'Gamja Flower';
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    margin-bottom: 40px;
+}
+.input-date {
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gamja Flower';
+}
+.box_01{
+    background-color: #64c964;
+    color: #fff;
+}
+.box_02{
+    background-color: #9dd772;
+    color: #fff;
+}
+.box_03{
+    background-color: #fdce17;
+    color: #fff;
+}
+.box_04{
+    background-color: #fd8446;
+    color: #fff;
+}
+.box_05{
+    background-color: #fd565f;
+    color: #fff;
+}
